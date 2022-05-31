@@ -1,0 +1,14 @@
+.carroButton {
+    background-color: #359A2C;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bubble {
+    position: relative;
+    left: 12px;
+    top: 20px;
+}
