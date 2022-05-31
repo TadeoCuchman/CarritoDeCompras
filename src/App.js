@@ -18,7 +18,7 @@ function App() {
 
   const agregarAlCarro = (producto) => {
     if (carro.find(x => x.name === producto.name)) {
-      const newCarro = carro.map(x => x.name == producto.name ?
+      const newCarro = carro.map(x => x.name === producto.name ?
         ({ ...x, cantidad: x.cantidad + 1 })
         : x)
       return setCarro(newCarro);
