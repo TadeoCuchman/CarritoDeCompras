@@ -10,6 +10,11 @@ function App() {
   const [productos, setProductos] = useState([
     { name: 'Print', price: 1200, img: '/images/6328.png' },
     { name: 'Print1', price: 1500, img: '/images/Brigadoon.jpeg' },
+    { name: 'Print2', price: 1300, img: '/images/floral-prints-.jpeg' },
+    { name: 'Print2', price: 1300, img: '/images/floral-prints-.jpeg' },
+    { name: 'Print2', price: 1300, img: '/images/floral-prints-.jpeg' },
+    { name: 'Print2', price: 1300, img: '/images/floral-prints-.jpeg' },
+    { name: 'Print2', price: 1300, img: '/images/floral-prints-.jpeg' },
     { name: 'Print2', price: 1300, img: '/images/floral-prints-.jpeg' }
   ]);
   const [carro, setCarro] = useState([]);
